@@ -78,7 +78,15 @@ console.log(typeof a);
 a="Akilan";
 console.log(a+";"+typeof a);
 
-console.log({fname:"Anjuka",gender:"Female"});
-console.table({fname:"Akilan",Gender:"Male",Mname:"Anju"});
+console.log({fname:"Akilan",Age:"22"});
 
 
+//ternary operator
+
+m=78;
+//35 grade c 50 grade b 60 grade b+ 70 grade A 80 grade A+ 90 grade Distinction
+
+var mark=(35<=m && m<50)?"Grade c":(60<=m && m<70)?"grade b+":
+(70<=m && m<80)?"grade A":(80<=m && m<90)?"grade a+": "no grade";
+
+console.log(mark);
