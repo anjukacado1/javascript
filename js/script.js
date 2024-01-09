@@ -90,3 +90,110 @@ var mark=(35<=m && m<50)?"Grade c":(60<=m && m<70)?"grade b+":
 (70<=m && m<80)?"grade A":(80<=m && m<90)?"grade a+": "no grade";
 
 console.log(mark);
+
+function findGrade(){
+
+    m=34; //input
+//35 32grade c 60 grade b 80 grade a 90 grade Distintion
+var mark= (35<=m && m<60) ? "grade c" : (60<=m && m<80) ? "Grade B" : (80<=m && m<90) ? "Grade A" : (90<=m && m<=100) ? "Grade Distinction" : "Fail";
+console.log(mark); // output
+
+}
+
+findGrade();
+
+function checkgarde (){
+    console.log("welcome");
+    console.log("Just trying")
+
+
+}
+
+var checkgarde1=(a,b) => {
+    console.log(a+b);
+    return a+b;
+}
+checkgarde();
+
+checkgarde1(5,6);
+
+//if conditions
+
+function gradechecking(m){
+    if(60<m && m<70)
+    {
+        console.log("Grade C");
+
+        console.log("pass");
+
+    }
+}
+    gradechecking(68);
+
+//if-else conditions
+function gradechecking(m){
+    if(35<m && m<60){
+    console.log("Pass");
+    console.log("Grade B");
+    }
+
+    else{
+        console.log("No grade");
+        console.log("Fail");
+    }
+}
+gradechecking(65);
+
+//if-else conditions
+function votingage(a)
+{
+    if(18<a && a!=null){
+    console.log("eligible for voting");
+}
+
+    else{
+        console.log("non eligible for voting");
+    }
+}
+
+votingage(21);
+
+//else if conditions
+
+function gradechecking(m)
+{
+    if(35>m && m!=null){
+        console.log("Fail");
+        console.log("No Grade");
+    }
+    else{
+        if(35<m && m!=null){
+            console.log("pass");
+            console.log("Grade B");
+        }    
+
+        else if(60<m && m<=70){
+            console.log("pass");
+            console.log("Grade B+");
+        }
+        
+        else if(70<m && m<=80){
+            console.log("pass");
+            console.log("Grade  A+");
+        }
+        
+        else if(80<m && m<=90){
+            console.log("pass");
+            console.log("Grade A");
+        }
+        
+        else if(90<m && m<=100){
+            console.log("pass");
+            console.log("Grade O or Distinction");
+        }
+        else{
+            gradechecking(prompt("Enter the marks"));
+        }
+    }
+}
+gradechecking();
