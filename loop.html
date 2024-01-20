@@ -1,0 +1,36 @@
+<html>
+<body>
+
+    <label for="Loop">Enter the the value</label><br>
+	<input type="Text" name="tb_value" id="tb_value" value=" "><br>
+
+    
+	<input type="submit" onclick="click1()">
+
+    <script>
+  function click1(){
+
+           
+			var printValue=document.getElementById("tb_value").value;
+            printValue=Number(printValue);
+
+            //document.getElementById("td_value").innerHTML=Name01;
+
+    
+
+    //    do{
+    //         console.log("input value in do while for "+ printValue+" is smaller than 25");
+    //         printValue++;
+    //    }
+    //    while(printValue<25)
+
+       for(printValue; printValue<30; printValue++){
+           console.log("output value in for loop "+ printValue+" is smaller than 30");
+
+       }
+    }
+
+    </script>
+    
+</body>
+</html>

@@ -201,37 +201,45 @@ alert("WElcome to JS");
 
 //Switch Conditional Statement
 
-console.clear();
-function chekingWithSwitch(a)
-{
-    var a1,b1;
-    a1=(prompt("Enter a1"));
-    b1=(prompt("Enter b1"));
-    a1=Number(a1);
-    b1=Number(b1);
-    
+// console.clear();
+// function chekingWithSwitch(a)
+// {
+//     var a1,b1;
+//     a1=(prompt("Enter a1"));
+//     b1=(prompt("Enter b1"));
+//     a1=Number(a1);
+//     b1=Number(b1);
 
-    switch(a){
-        case 'add':
-            console.log("added value of a1 and b1 is", a1+b1);
-            break;
+//     switch(a){
+//         case 'add':
+//             console.log("added value of a1 and b1 is", a1+b1);
+//             break;
 
-            case 'subtract':
-                console.log("subtracted  value of a1 and b1 is", a1-b1);
-                break;
+//             case 'subtract':
+//                 console.log("subtracted  value of a1 and b1 is", a1-b1);
+//                 break;
 
-            case 'Multiply':
-                console.log("Multiplied value of a1 and b1 is", a1*b1);
-                break;
+//             case 'Multiply':
+//                 console.log("Multiplied value of a1 and b1 is", a1*b1);                break;
 
-            case 'Divison':
-                console.log("Divided value of a1 and b1 is", a1/b1);
-                break;
+//             case 'Divison':
+//                 console.log("Divided value of a1 and b1 is", a1/b1);
+//                 break;
 
-                default:
-                    alert ("operator not in the list");
-    }
+//                 default:
+//                     alert ("operator not in the list");
+//     }
+// }
+// chekingWithSwitch(prompt("Enter operator"));
+
+
+//LOOP CONCEPTS:
+
+function GetResultFun(){
+
+// While loop;
+inputValue=Number(inputValue);
+while (inputValue>20){
+    console.log("input value is larger than 20");
 }
-chekingWithSwitch(prompt("Enter operator"));
-
-form with switch
+}
